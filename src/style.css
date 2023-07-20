@@ -1,0 +1,72 @@
+#menuBar {
+    color:White;
+    background-color: teal;
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    gap: 20px;
+    height: 22px;
+}
+
+#servicesContainer {
+    padding-top:10px;
+    color: black;
+    background:none;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+#photoContainer {
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+#strip {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100px;
+    width: 70vw;
+    border: solid black
+}
+
+#strip > div {
+    height:20px;
+    width: 20px;
+    border: solid black
+}
+
+#circleBox {
+    height:20px;
+    width:60vw;
+    border:solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+#circleBox > div {
+    height:10px;
+    width: 10px;
+    border: solid black;
+    border-radius: 50%
+
+}
+
+#circleBox > div:hover {
+    background-color: gray;
+}
+
+#arrowContainer {
+    display: flex;
+}
+
+#p1, #p2, #p3 {
+    background-size: cover;
+}
